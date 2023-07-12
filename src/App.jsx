@@ -31,9 +31,9 @@ export default function App() {
 		setOpenCard({open: true, character: item});
 	};
 
-	const handleClose = () => {
-		setOpenCard({open: false, character: {}});
-	};
+	// const handleClose = () => {
+	// 	setOpenCard({open: false, character: {}});
+	// };
 	console.log(characters);
 
 	useEffect(() => {
